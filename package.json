@@ -1,10 +1,10 @@
 {
-  "name": "@sidv93/react-sidenav",
+  "name": "@sidv93/react-acp-sidenav",
   "version": "1.0.0",
   "description": "",
   "author": "sidv93",
   "license": "MIT",
-  "repository": "sidv93/react-sidenav",
+  "repository": "sidv93/react-acp-sidenav",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",

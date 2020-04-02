@@ -10,7 +10,7 @@ import Apps from './assets/icons/apps.svg';
 import Help from './assets/icons/help.svg';
 import Person from './assets/icons/person.svg';
 
-export default class ExampleComponent extends Component {
+export default class ACPSidenav extends Component {
   static propTypes = {
     text: PropTypes.string
   }
