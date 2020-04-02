@@ -17,7 +17,7 @@ export default class ACPSidenav extends Component {
 
   render() {
     const {
-      unreadCount
+      unreadCount = 2
     } = this.props;
 
     return (
