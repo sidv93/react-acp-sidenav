@@ -17,9 +17,8 @@ export default class ACPSidenav extends Component {
 
   render() {
     const {
-      text
-    } = this.props
-    const unreadCount = 2;
+      unreadCount
+    } = this.props;
 
     return (
           <div className={`${styles.Navigation__Spacer} ${styles.NavExpand__transition}`}>
