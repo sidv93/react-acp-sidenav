@@ -12,7 +12,7 @@ import Person from './assets/icons/person.svg';
 
 export default class ACPSidenav extends Component {
   static propTypes = {
-    unreadCount: PropTypes.string,
+    unreadCount: PropTypes.number,
     homeUrl: PropTypes.string
   }
 
