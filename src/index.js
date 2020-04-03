@@ -17,7 +17,6 @@ export default class ACPSidenav extends Component {
   }
 
   goHome = (url) => {
-    console.log('url', url);
     window.open(url, '_self');
   }
 
