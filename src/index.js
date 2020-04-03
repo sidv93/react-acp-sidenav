@@ -12,12 +12,19 @@ import Person from './assets/icons/person.svg';
 
 export default class ACPSidenav extends Component {
   static propTypes = {
-    text: PropTypes.string
+    unreadCount: PropTypes.string,
+    homeUrl: PropTypes.string
+  }
+
+  goHome = (url) => {
+    console.log('url', url);
+    window.open(url, '_self');
   }
 
   render() {
     const {
-      unreadCount = 2
+      unreadCount = 2,
+      homeUrl = 'http://acplabs.centralindia.cloudapp.azure.com/acp-live'
     } = this.props;
 
     return (
@@ -29,7 +36,7 @@ export default class ACPSidenav extends Component {
                     <div className={styles['Nav__PrimaryActions--inner']}>
                       <div className={styles['Nav__PrimaryActions--logo']}>
                         <a>
-                          <span className={styles.Logo__Wrapper}>
+                          <span className={styles.Logo__Wrapper} onClick={() => this.goHome(homeUrl)}>
                             <img src={AsteriaBadge} alt="Asteria Emblem" />
                           </span>
                         </a>
