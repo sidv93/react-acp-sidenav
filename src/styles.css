@@ -1,13 +1,13 @@
 :root {
-  --navigation-primary: #0747a6;
+  --navigation-primary: #283655;
   --navigation-secondary: #3c5180;
   /* Default Color palette - Dark */
-  --theme-primary: #F5F7FF;
-  --theme-secondary: #E6ECFF;
-  --theme-tertiary: #E6ECFF;
+  --theme-primary: #1E1F26;
+  --theme-secondary: #3c5180;
+  --theme-tertiary: #3c5180;
   --theme-text-color: hsl(233, 12%, 13%);
-  --drawer-color: #F5F7FF;
-  --droplist-color: #f5f7ff;
+  --drawer-color: #1E1F26;
+  --droplist-color: #1E1F26;
   --box-shadow-color: #d0d0d0;
 }
 
